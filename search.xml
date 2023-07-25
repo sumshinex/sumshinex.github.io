@@ -4,16 +4,16 @@
     <title>Hello World</title>
     <url>/2023/07/19/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
@@ -344,7 +344,7 @@
 <p>你可以选择直接访问<a href="https://editor.mdnice.com/">官方</a>，也可以自建，自建的好处是不需要登录，下面截图就是我自建的：</p>
 <p><img src="https://img.turingark.com/uPic/oGeICY.png"></p>
 <p>官方并不支持<code>Docker</code>部署，为了方便大家使用，直接用我打包上传的镜像，一行命令即可体验<code>mdnice</code>:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">docker run --name mdnice -p 8080:80 -d howie6879/mdnice:22.02.11<br></code></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run --name mdnice -p 8080:80 -d howie6879/mdnice:22.02.11</span><br></pre></td></tr></table></figure>
 
 <h3 id="JD-tencent-scf"><a href="#JD-tencent-scf" class="headerlink" title="JD_tencent_scf"></a><a href="https://github.com/cweijan/JD_tencent_scf">JD_tencent_scf</a></h3><p>这个项目简化了打京豆的脚本部署流程，每个月能打1500(不确定)左右。</p>
 <h2 id="🤖-软件-6"><a href="#🤖-软件-6" class="headerlink" title="🤖 软件"></a>🤖 软件</h2><h3 id="BetterDummy"><a href="#BetterDummy" class="headerlink" title="BetterDummy"></a><a href="https://github.com/waydabber/BetterDummy">BetterDummy</a></h3><p><code>BetterDummy</code> 可以让 <code>M1</code> 系列芯片的 <code>Mac</code> 拥有自定义的 <code>HiDPI</code> 缩放分辨率，而不用再使用额外的硬件或占用其它接口来实现。而且，通过 <code>BetterDummy</code> 实现的 <code>HiDPI</code>，还不用关闭系统保护，也不会出现像是鼠标抖动这类通过外接硬件设备方案会遇到的问题。</p>
@@ -1158,7 +1158,7 @@
 <h3 id="doocs-md"><a href="#doocs-md" class="headerlink" title="doocs&#x2F;md"></a><a href="https://github.com/doocs/md">doocs&#x2F;md</a></h3><p>✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性：</p>
 <p><img src="https://images-1252557999.file.myqcloud.com/uPic/doocs.jpg" alt="doocs"></p>
 <p>之前我也推荐过 <a href="https://weekly.howie6879.cn/2022/02-15~02-20.%E6%88%91%E7%9A%84%E5%91%A8%E5%88%8A%EF%BC%88%E7%AC%AC027%E6%9C%9F%EF%BC%89.html?h=mdnice#markdown-nice">markdown-nice</a> ，我构建了一键使用的镜像，也可以体验：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">docker run --name mdnice -p 8080:80 -d howie6879/mdnice:22.02.11<br></code></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run --name mdnice -p 8080:80 -d howie6879/mdnice:22.02.11</span><br></pre></td></tr></table></figure>
 
 <h3 id="taskcafe"><a href="#taskcafe" class="headerlink" title="taskcafe"></a><a href="https://github.com/JordanKnott/taskcafe">taskcafe</a></h3><p>带看板的开源项目管理工具:</p>
 <ul>
@@ -1684,7 +1684,7 @@
 <h2 id="🤖-软件-37"><a href="#🤖-软件-37" class="headerlink" title="🤖 软件"></a>🤖 软件</h2><h3 id="MonitorControl"><a href="#MonitorControl" class="headerlink" title="MonitorControl"></a><a href="https://github.com/MonitorControl/MonitorControl">MonitorControl</a></h3><p>控制外部显示器的亮度和音量（macOS）：</p>
 <p><img src="https://images-1252557999.file.myqcloud.com/uPic/MonitorControl.png" alt="MonitorControl"></p>
 <h3 id="yarr"><a href="#yarr" class="headerlink" title="yarr"></a><a href="https://github.com/nkanaev/yarr">yarr</a></h3><p>基于 <code>Web</code> 的 <code>RSS</code> 阅读器，可使用 <code>Docker</code> 快速体验：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><code class="hljs shell">mkdir -p ./yarr/data<br>docker run -it -p 7070:7070 -v $(pwd)/yarr/data:/data wbsu2003/yarr<br></code></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir -p ./yarr/data</span><br><span class="line">docker run -it -p 7070:7070 -v $(pwd)/yarr/data:/data wbsu2003/yarr</span><br></pre></td></tr></table></figure>
 
 <p>总体来说还是挺简洁轻量的：</p>
 <p><img src="https://images-1252557999.file.myqcloud.com/uPic/yarr.jpg" alt="yarr"></p>
